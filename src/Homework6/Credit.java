@@ -1,7 +1,7 @@
 package Homework6;
 import java.util.Scanner;
 
-public class Kredit {
+public class Credit {
     // Програма визначення суми погшашення кредиту
     static int MyCredit(int a) {
         int c = 700;
@@ -30,12 +30,12 @@ public class Kredit {
         System.out.println(kRedit);
         while (kRedit>0){
             System.out.println("Введіть наступну суму внесеного платежу по кредиту");
-        int d = input.nextInt();
-        kRedit=kRedit-d;
-        System.out.println(kRedit);
-          if (kRedit==0){
-              System.out.println("Борг по кредиту відсутній");
-          }
-    }}
+            int d = input.nextInt();
+            kRedit=kRedit-d;
+            System.out.println(kRedit);
+            if (kRedit==0){
+                System.out.println("Борг по кредиту відсутній");
+            }
+        }}
 }
 
