@@ -2,6 +2,8 @@ package Homework_22;
 
 import java.io.*;
 
+// Зробити сереалізацію десереалізацію будь якого обїєкта, двома варіантами, котрі були розглянуті на уроці. Через інтерфейс Serializable та за допомогою методів
+
 public class Main {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
