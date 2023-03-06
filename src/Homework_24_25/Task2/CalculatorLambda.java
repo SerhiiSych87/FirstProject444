@@ -29,13 +29,9 @@ public class CalculatorLambda {
             double [] numbers = calc.readNum(input);
             // робимо вивід до консолі, звертаючись до наших введених чисел з масиву та методу що приймає операцію
 
-            System.out.println(numbers[0] + " + " + numbers[1] + " = "
-                    + calc.calculator(numbers[0], numbers[1], add));
-            System.out.println(numbers[0] + " - " + numbers[1] + " = "
-                    + calc.calculator(numbers[0], numbers[1], sub));
-             System.out.println(numbers[0] + " / " + numbers[1] + " = "
-                    + calc.calculator(numbers[0], numbers[1], div));
-             System.out.println(numbers[0] + " * " + numbers[1] + " = "
-                + calc.calculator(numbers[0], numbers[1], mult));
+            System.out.println(numbers[0] + " + " + numbers[1] + " = " + calc.calculator(numbers[0], numbers[1], add));
+            System.out.println(numbers[0] + " - " + numbers[1] + " = " + calc.calculator(numbers[0], numbers[1], sub));
+             System.out.println(numbers[0] + " / " + numbers[1] + " = " + calc.calculator(numbers[0], numbers[1], div));
+             System.out.println(numbers[0] + " * " + numbers[1] + " = " + calc.calculator(numbers[0], numbers[1], mult));
         }
     }
